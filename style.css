@@ -1,1 +1,82 @@
-/* Write your CSS here */
+.container {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.pig-image {
+    height: 200px;
+    width: 200px;
+    padding: 8px;
+    margin: 5px;
+    position: absolute;
+    top: 30%;
+    left: 13%;
+    background-color: purple;
+}
+
+.smart-pig {
+    height: 200px;
+    width: 200px;
+    padding: 8px;
+    margin: 5px;
+    position: absolute;
+    top: 50%;
+    right: 13%;
+    background-color: pink;
+}
+ .bubble {
+    height: 125px;
+    width: 150px;
+    padding: 8px;
+    margin: 5px;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+ }
+
+ .talk {
+    width: 200px;
+    position: absolute;
+    top: 24%;
+    left: 24.5%;
+ }
+
+ .fun-fact {
+    width: 200px;
+    font-size: 15px;
+    position: absolute;
+    top: 30%;
+    right: 15%
+ }
+
+ .bubble2 {
+    height: 150px;
+    width: 250px;
+    padding: 8px;
+    margin: 5px;
+    position: absolute;
+    top: 28%;
+    right: 13%
+ }
+
+body {
+    background-color: rgb(236, 134, 236);
+}
+
+.text {
+    text-align: start;
+    max-width: 30%;
+    min-width: 30%;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pig-word {
+    background-color: rgba(235, 78, 175, 0.7);
+    max-width: 30%;
+    min-width: 30%;
+    padding: 15px;
+    margin: auto
+}
